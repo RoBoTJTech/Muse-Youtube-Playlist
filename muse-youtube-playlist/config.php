@@ -11,18 +11,18 @@ $playListID = 'PLrEnWoR732-BHrPp_Pm8_VleD68f9s14-';
 // Set your playListType to one of the following: playlist, search, or user_uploads
 $playListType = 'user_uploads';
 //$defaultVideo = 'Cu5KD_UX6bc';
-$googleAPIKey=‘PUT GOOGLE API KEY HERE’;
+$googleAPIKey=â€˜PUT GOOGLE API KEY HEREâ€™;
 $backupPlayListID='PLfiklpBmJhxR95V7AkrOREDZ2D-MTNTuy';
 
 // set iframe size and table sizes, set autoplay=0 to disable autoplay, set disableDescriptions=1 to turn off the
 // descriptions on the playlist. -------NOTE: Views are NOT COUNTED if you use IFRAME OR AUTOPLAY... You must set autoplay=0 and OldEmbed=1
 // if you wish views to be counted
-  $notFound='Sorry no more videos were found in this play list, but check out these cool videos!!!';
-$preHTML=‘<br>PUT CUSTOM HTML HERE LIKE AD CODE’;
+ $notFound='Sorry no more videos were found in this play list, but check out these cool videos!!!';
+$preHTML=â€˜<br>PUT CUSTOM HTML HERE LIKE AD CODEâ€™;
 
-$postHTML=‘<br>PUT CUSTOM HTML HERE LIKE AD CODE’;
+$postHTML=â€˜<br>PUT CUSTOM HTML HERE LIKE AD CODEâ€™;
 
-$midHTML=‘<br>PUT CUSTOM HTML HERE LIKE AD CODE’;
+$midHTML=â€˜<br>PUT CUSTOM HTML HERE LIKE AD CODEâ€™;
 $safeSearch='strict';
 $relativePlaylist=1;
 $iframeWidth = 980;
