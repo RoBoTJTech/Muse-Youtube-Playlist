@@ -449,14 +449,15 @@ function getVideoInfo() {
 	global $videoTitle;
 	global $videoURL;
 	global $videoThumbnail;
+	global $videoImage;
 	global $youtubeWatch;
 	global $youtubeMeta;
 	global $videoID;
 	global $longDesc;
 	global $longDescInfo;
-        global $titleParam;
-      global $videoCC;
-      global $closedCaption;
+    global $titleParam;
+    global $videoCC;
+    global $closedCaption;
 	$youtubeMeta = get_meta_tags ( locateFeed ( $youtubeWatch ) );
 	if ($youtubeMeta ['keywords']) {
 		$keywords = explode ( ',', preg_replace ( "/[^A-Za-z0-9,]/", "", preg_replace ( "/\([^)]+\)/", "", $youtubeMeta ['keywords'] ) ) );
@@ -475,6 +476,7 @@ function getVideoInfo() {
 		$videoTitle = $json ['items'] [0] ['snippet'] ['title'];
 		// echo "<pre>".print_r($json['items'][0]['snippet']).'</pre>';
 		$videoThumbnail = $json ['items'] [0] ['snippet'] ['thumbnails'] ['medium'] ['url'];
+		$videoImage = $json ['items'] [0] ['snippet'] ['thumbnails'] ['high'] ['url'];
 	}
 
 	if ($longDesc) {
@@ -582,6 +584,9 @@ function showDescCC() {
 }
 
 function showDescription($nodiv) {
+    global $videoTitle;
+    global $videoID;
+    global $videoImage;
 	global $videoDescription;
 	global $simpleDescription;
 	global $titleStyle;
@@ -595,7 +600,7 @@ function showDescription($nodiv) {
 	// description that includes the title, URL, description WITH hashtags in a textarea
 	// for easy cutting and pasting on your social network accounts.
 	if ($longDesc)
-		echo "<div align=center>Video Info<br><textarea rows=5 cols=40>" . $longDescInfo . "</textarea><br>Simple Description<br><textarea rows=5 cols=40>".$simpleDescription."</textarea><br>Video Description (No Links)<br><textarea rows=5 cols=40>" . $videoDescription . "</textarea><br>Video Description (Links)<br><textarea rows=5 cols=40>" . plain_url_to_link ( $videoDescription ) . "</textarea><br><a href=?longdesc=off>Disable Long Descriptions</a></div>";
+		echo "<div align=center><img src=".showImage ( $videoTitle, $videoID, $videoImage )."><br>Video Info<br><textarea rows=5 cols=40>" . $longDescInfo . "</textarea><br>Simple Description<br><textarea rows=5 cols=40>".$simpleDescription."</textarea><br>Video Description (No Links)<br><textarea rows=5 cols=40>" . $videoDescription . "</textarea><br>Video Description (Links)<br><textarea rows=5 cols=40>" . plain_url_to_link ( $videoDescription ) . "</textarea><br><a href=?longdesc=off>Disable Long Descriptions</a></div>";
 	else
 		echo str_replace ( "\n", "<br>", plain_url_to_link ( $videoDescription ) );
         if (!$nodiv)
