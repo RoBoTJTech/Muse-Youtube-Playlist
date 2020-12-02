@@ -19,36 +19,36 @@ Install
     The easiest way to use the YouTube Integration software is by adding the yt-integration folder to the root directory of your site.
 
 Usage
-  
+
 Step #1
   Once installed, add your YouTube Data API key into the config.php file.
 
     Example: $this->googleAPIKey = 'yourGoogleApiKeyGoesHere';
 
 
-    Step #2
-      Set your baseURI and basePath for your local config.
+Step #2
+  Set your baseURI and basePath for your local config.
 
-        Example:
-          $basePath = 'local/file/path/';
-          $baseURI = '/web/directory';
+    Example:
+      $basePath = 'local/file/path/';
+      $baseURI = '/web/directory';
 
-      The basePath is your server file path and is used for caching your API requests as long as the request is the same it will not make a new request from YouTube. This will make load times faster and will make sure your API limit is not reached.
+  The basePath is your server file path and is used for caching your API requests as long as the request is the same it will not make a new request from YouTube. This will make load times faster and will make sure your API limit is not reached.
 
-        e.g. /home/user/site/public_html/yt-integration/resources/feed-cache
+    e.g. /home/user/site/public_html/yt-integration/resources/feed-cache
 
-      The baseURI is used to save your YouTube thumbnails. These images will be downloaded with descriptive filenames and will be searchable from google images. Make sure your the URI is accessible by the public.
+  The baseURI is used to save your YouTube thumbnails. These images will be downloaded with descriptive filenames and will be searchable from google images. Make sure your the URI is accessible by the public.
 
-        e.g. $baseURI/yt-integration/resources/youtube-images/image_name
+    e.g. $baseURI/yt-integration/resources/youtube-images/image_name
 
 
 
-    Step #3
-      Set Your default playListID and defaultVideo
+Step #3
+  Set Your default playListID and defaultVideo
 
-        Example:
-          $this->playListID = 'YouTubePlaylistIDGoesHere'
-          $this->defaultVideo = 'YouTubeVideoIDGoesHere'
+    Example:
+      $this->playListID = 'YouTubePlaylistIDGoesHere'
+      $this->defaultVideo = 'YouTubeVideoIDGoesHere'
 
 
 // Dirs and URLs -- make a directory on your server where you want to store youtube thumbnails.
