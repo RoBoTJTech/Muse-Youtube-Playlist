@@ -12,12 +12,11 @@
 Requirements
   - Site running HTML and PHP
   - YouTube Data API from Google. https://developers.google.com/youtube/registering_an_application (This API is free and will be linked to your personal Google account)
-  
-Basic Site(HTML/PHP)
 
 Install
 
-  - The easiest way to use the YouTube Integration software is by adding the yt-integration folder to the root directory of your site.
+  - Basic Site(HTML/PHP)
+      The easiest way to use the YouTube Integration software is by adding the yt-integration folder to the root directory of your site.
 
 Usage
 
@@ -42,6 +41,9 @@ Usage
 
       e.g. $baseURI/yt-integration/resources/youtube-images/image_name
 
+    IMPORTANT - Make sure the above directory are writeable by the server.
+
+      e.g. chmod 777 or a+rw
 
 
 - Step #3
@@ -52,29 +54,49 @@ Usage
         $this->defaultVideo = 'YouTubeVideoIDGoesHere'
 
 
-// Dirs and URLs -- make a directory on your server where you want to store youtube thumbnails.
-// They will be downloaded and descriptive file names will assigned to them making them searchable from google images
-// caching will reduce the need for pulling your playlist data from YouTube for every request. The data will
-// be refreshed based on the $refresh value in seconds. Make sure you create the directory on your server, and make it
+- Step #4
+  Place the following lines of code inside the <head></head> tags of each page you wish to display playlists or videos.
+
+      <?php
+        // error_reporting(E_ALL); // Uncomment to display errors for debugging
+        include('./yt-integration/functions.php');
+        $rbtj_YT = new RBTJ_YT_Plugin;
+        $rbtj_YT->getConfigs();
+
+        // You can set playlist and video IDs for each page if required, if left empty or removed, it will use the defaults set in your config.php file
+        $rbtj_YT->playListID='';
+        $rbtj_YT->defaultVideo='';
+
+        $rbtj_YT->getVideoInfo();
+        echo $rbtj_YT->showMetatags();
+      ?>
+
+
+- Caching
+
+  The cached API request data will be refreshed based on the value in seconds give to $this->refresh. The default value is 86400 seconds which is equivalent to 24 hours.
+
+      Common refresh times:
+        1 hour  = 3600
+        1 day   = 86400
+        1 week  = 604800
+        1 month = 2629800
+        1 year  = 31557600
+
+The data will be refreshed based on the $refresh value in seconds. Make sure you create the directory on your server, and make it
 // writable by the web server ie: chmod 777 or a+rw
   $youtube_image_path="./youtube-images/";
   $youtube_image_uri="/youtube-images/";
   $feed_path="./feed-cache/";
   $refresh='86400';
 
-// set the snippet info for sharing on Facebook, Twitter, Etc, must be 200px wide
-  $siteName='The Johnny O Show';
-  $twitterName='@thejohnnyoshow';
-  include('./thejohnnyoshow/functions.php');
-  ?>
+
 //-----------------CUT AND PASTE THE CODE ABOVE INTO YOUR MUSE PAGE PROPERTIES HTML HEADER SECTION---------------------------
 
   Step 3 Make the needed changes to the values in the code you just pasted
   to match your needs
 
-  Step 4 Make a folder in your HTML folder on your server named 'thejohnnyoshow' and put
-  this file with the name of 'functions.php' inside of it using an ftp client or
-  the file manager if your hosting provider offers one (like in cPanel or plesk)
+
 
   Step 5 Place the following HTML tags by inserting an HTML object in Muse in
   any location you want on your page. Tags can be used separately and in any
