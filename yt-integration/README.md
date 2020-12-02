@@ -12,11 +12,12 @@
 Requirements
   - Site running HTML and PHP
   - YouTube Data API from Google. https://developers.google.com/youtube/registering_an_application (This API is free and will be linked to your personal Google account)
+  
+Basic Site(HTML/PHP)
 
 Install
 
-  - Basic Site(HTML/PHP)
-      The easiest way to use the YouTube Integration software is by adding the yt-integration folder to the root directory of your site.
+  - The easiest way to use the YouTube Integration software is by adding the yt-integration folder to the root directory of your site.
 
 Usage
 
