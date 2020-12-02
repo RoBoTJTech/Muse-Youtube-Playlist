@@ -23,15 +23,15 @@ Usage
 - Step #1
   Once installed, add your YouTube Data API key into the config.php file.
 
-    Example: $this->googleAPIKey = 'yourGoogleApiKeyGoesHere';
+      Example: $this->googleAPIKey = 'yourGoogleApiKeyGoesHere';
 
 
 - Step #2
   Set your baseURI and basePath for your local config.
 
-    Example:
-      $basePath = 'local/file/path/';
-      $baseURI = '/web/directory';
+      Example:
+        $basePath = 'local/file/path/';
+        $baseURI = '/web/directory';
 
   The basePath is your server file path and is used for caching your API requests as long as the request is the same it will not make a new request from YouTube. This will make load times faster and will make sure your API limit is not reached.
 
@@ -46,9 +46,9 @@ Usage
 - Step #3
   Set Your default playListID and defaultVideo
 
-    Example:
-      $this->playListID = 'YouTubePlaylistIDGoesHere'
-      $this->defaultVideo = 'YouTubeVideoIDGoesHere'
+      Example:
+        $this->playListID = 'YouTubePlaylistIDGoesHere'
+        $this->defaultVideo = 'YouTubeVideoIDGoesHere'
 
 
 // Dirs and URLs -- make a directory on your server where you want to store youtube thumbnails.
