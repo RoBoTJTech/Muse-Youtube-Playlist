@@ -16,17 +16,17 @@ Requirements
 Install
 
   - Basic Site(HTML/PHP)
-    The easiest way to use the YouTube Integration software is by adding the yt-integration folder to the root directory of your site.
+      The easiest way to use the YouTube Integration software is by adding the yt-integration folder to the root directory of your site.
 
 Usage
 
-Step #1
+- Step #1
   Once installed, add your YouTube Data API key into the config.php file.
 
     Example: $this->googleAPIKey = 'yourGoogleApiKeyGoesHere';
 
 
-Step #2
+- Step #2
   Set your baseURI and basePath for your local config.
 
     Example:
@@ -43,7 +43,7 @@ Step #2
 
 
 
-Step #3
+- Step #3
   Set Your default playListID and defaultVideo
 
     Example:
