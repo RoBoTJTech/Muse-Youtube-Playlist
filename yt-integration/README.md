@@ -21,9 +21,9 @@ Install
 Usage
   
 Step #1
- Once installed, add your YouTube Data API key into the config.php file.
+  Once installed, add your YouTube Data API key into the config.php file.
 
-  Example: $this->googleAPIKey = 'yourGoogleApiKeyGoesHere';
+    Example: $this->googleAPIKey = 'yourGoogleApiKeyGoesHere';
 
 
     Step #2
