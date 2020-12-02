@@ -36,6 +36,19 @@ $this->videoPage = ''; // Example $this->videoPage = '/recent-videos'; This will
 // Set a custom Not Found message, maybe add a link to another page or more videos.
 $this->notFound = 'Sorry no more videos were found in this playlist. ';
 
+// Caching Settings
+$this->youtube_image_uri = $baseURI."/yt-integration/resources/youtube-images/";
+
+$this->youtube_image_path = $basePath."/yt-integration/resources/youtube-images/";
+$this->feed_path = $basePath."/yt-integration/resources/feed-cache/";
+$this->refresh = '86400'; // Set refresh time in seconds, refer to README for examples
+
+$this->disable_port = 1;
+
+// set the snippet info for sharing on Facebook, Twitter, Etc, must be 200px wide
+$this->siteName = ''; // 'Your Site Name'
+$this->twitterName = ''; // '@twitterHandle'
+
 
 //AD settings
 $this->playAd = 0;
@@ -44,28 +57,12 @@ $this->skipButtonText = "Skip Ad&nbsp;&nbsp; &#x27a9;";
 $this->playButtonText = "Play";
 $this->adLinkText = "<font color=white>Visit Advertiser...</font>";
 $this->adList = '[{
-	"videoID": "hPwf8YDPwkk",
-	"advertiserURL": "https://youtube.com/thejohnnyoshow"
+	"videoID": "Video ID Goes Here",
+	"advertiserURL": "URL Goes Here"
 }, {
-	"videoID": "5EcxrPJmS5M",
-	"advertiserURL": "https://facebook.com/thejohnnyoshow"
+	"videoID": "Video ID Goes Here",
+	"advertiserURL": "URL Goes Here"
 }]';
-
-
-// Stuff to help SEO
-$this->youtube_image_uri = $baseURI."/yt-integration/resources/youtube-images/";
-
-$this->youtube_image_path = $basePath."/yt-integration/resources/youtube-images/";
-$this->feed_path = $basePath."/yt-integration/resources/feed-cache/";
-
-$this->refresh = '86400';
-$this->disable_port = 1;
-
-
-// set the snippet info for sharing on Facebook, Twitter, Etc, must be 200px wide
-$this->siteName = ''; // 'Your Site Name'
-$this->twitterName = ''; // '@twitterHandle'
-
 $this->preHTML = '<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 <!-- RoBoT J Tech YouTube Integration -->
 <ins class="adsbygoogle"
