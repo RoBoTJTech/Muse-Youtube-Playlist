@@ -33,11 +33,11 @@ Usage
         $basePath = 'local/file/path/';
         $baseURI = '/web/directory';
 
-  The basePath is your server file path and is used for caching your API requests as long as the request is the same it will not make a new request from YouTube. This will make load times faster and will make sure your API limit is not reached.
+    The basePath is your server file path and is used for caching your API requests as long as the request is the same it will not make a new request from YouTube. This will make load times faster and will make sure your API limit is not reached.
 
     e.g. /home/user/site/public_html/yt-integration/resources/feed-cache
 
-  The baseURI is used to save your YouTube thumbnails. These images will be downloaded with descriptive filenames and will be searchable from google images. Make sure your the URI is accessible by the public.
+    The baseURI is used to save your YouTube thumbnails. These images will be downloaded with descriptive filenames and will be searchable from google images. Make sure your the URI is accessible by the public.
 
     e.g. $baseURI/yt-integration/resources/youtube-images/image_name
 
