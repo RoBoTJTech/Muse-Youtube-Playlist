@@ -15,7 +15,7 @@ Requirements
 
 Install
 
-  Basic Site(HTML/PHP)
+  - Basic Site(HTML/PHP)
     The easiest way to use the YouTube Integration software is by adding the yt-integration folder to the root directory of your site.
 
 Usage
