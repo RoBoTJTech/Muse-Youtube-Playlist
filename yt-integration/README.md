@@ -41,7 +41,7 @@ Usage
 
       e.g. $baseURI/yt-integration/resources/youtube-images/image_name
 
-    IMPORTANT - Make sure the above directory are writeable by the server.
+    IMPORTANT - Make sure the above directories are writeable by the server.
 
       e.g. chmod 777 or a+rw
 
@@ -72,6 +72,16 @@ Usage
       ?>
 
 
+- Step #5
+  Place the following PHP tags into your HTML code where you would like each element to appear.
+
+      <?php showVideo(); ?>
+      <?php showTitle(); ?>
+      <?php showDescription(); ?>
+      <?php showPlaylist(); ?>
+
+
+
 - Caching
 
   The cached API request data will be refreshed based on the value in seconds give to $this->refresh. The default value is 86400 seconds which is equivalent to 24 hours.
@@ -83,34 +93,16 @@ Usage
         1 month = 2629800
         1 year  = 31557600
 
-The data will be refreshed based on the $refresh value in seconds. Make sure you create the directory on your server, and make it
-// writable by the web server ie: chmod 777 or a+rw
-  $youtube_image_path="./youtube-images/";
-  $youtube_image_uri="/youtube-images/";
-  $feed_path="./feed-cache/";
-  $refresh='86400';
 
-
-//-----------------CUT AND PASTE THE CODE ABOVE INTO YOUR MUSE PAGE PROPERTIES HTML HEADER SECTION---------------------------
-
-  Step 3 Make the needed changes to the values in the code you just pasted
-  to match your needs
-
-
-
-  Step 5 Place the following HTML tags by inserting an HTML object in Muse in
-  any location you want on your page. Tags can be used separately and in any
-  order or layout on your page. Again watch my videos for help :-)
-
-  <?php showMetatags(); ?>
   <?php showVideo(); ?>
   <?php showTitle(); ?>
   <?php showDescription(); ?>
   <?php showPlaylist(); ?>
 
-  Step 6 Please like and share my videos, and subscribe and
-  follow THANKS!!! And if you really want you can send me money :-)
-
+- Final Step
+  Please like and share my videos, and subscribe and follow my channel
+  THANKS!!! And if you find this useful feel free to make a donation towards my work.
+  
   John Orjias
   http://www.thejohnnyoshow.com
   http://facebook.com/thejohnnyoshow
