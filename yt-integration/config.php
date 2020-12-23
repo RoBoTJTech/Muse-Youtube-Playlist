@@ -1,6 +1,6 @@
 <?php
 // Step #1 - YouTube Data API goes here
-$this->googleAPIKey = 'AIzaSyDjft4td4QPwOImeT1iLdEKAWJW7vSUPfQ'; //'AIzaSyC6Z0Qwe64mEo3KxJQAMxBURrQGAXXAxjs';
+$this->googleAPIKey = ''; //'AIzaSyC6Z0Qwe64mEo3KxJQAMxBURrQGAXXAxjs';
 
 
 // Step #2 - Set the file and URI paths for your local install, either relative or full
