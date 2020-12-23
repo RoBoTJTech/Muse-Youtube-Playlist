@@ -142,6 +142,7 @@ if (!class_exists( 'RBTJ_YT_Plugin')) {
 		public $googleAPIKey;
 		public $iframeHeight;
 		public $iframeWidth;
+		public $idCounter;
 		public $itemcount;
 		public $items;
 		public $keywords;
@@ -185,9 +186,8 @@ if (!class_exists( 'RBTJ_YT_Plugin')) {
 		public $youtube_image_uri;
 
 		function getConfigs() {
-
+			$this->idCounter = 0;
 		  include_once 'config.php';
-
 		}
 
 		function showVideo() {
@@ -496,11 +496,12 @@ html;
 					$this->playlistLongDesc = $this->videoDescription . "\r\n\r\n" . $this->playlistLongDesc;
 				$shortcodeOutput .= "<div>Page Description (No Links)
 															<br>
-															<textarea id='page-desc-nolinks' onclick='copyText(this.id)' rows=5 cols=40 >" . $this->playlistLongDesc . "</textarea>
+															<textarea id='page-desc-nolinks-" . $this->idCounter . "' onclick='copyText(this.id)' rows=5 cols=40 >" . $this->playlistLongDesc . "</textarea>
 															<br>Page Description (Links)
 														 	<br>
-														 	<textarea id='page-desc-links' onclick='copyText(this.id)' rows=5 cols=40 >" . $this->plain_url_to_link ( $this->playlistLongDesc ) . "</textarea>
+														 	<textarea id='page-desc-links-" . $this->idCounter . "' onclick='copyText(this.id)' rows=5 cols=40 >" . $this->plain_url_to_link ( $this->playlistLongDesc ) . "</textarea>
 														 </div>";
+				$this->idCounter++;
 			}
 
 			return $shortcodeOutput;
@@ -600,6 +601,7 @@ html;
 
 		  if ($_GET ['longdesc'] == 'on') {
 		  	$this->longDesc = 1;
+				$this->refresh = 0;
 		  }
 
 		  if (! $_GET ['v'] && isset ( $_GET ['p'] ) && isset ( $_COOKIE ['videoID'] )) {
@@ -717,7 +719,6 @@ html;
 			}
 
 			$shortcodeOutput .= '
-				<script src="yt-integration/resources/js/yt-integration.js"></script>
 				<link rel="canonical" href="' . $currentURL . '" />
 				<link rel="image_src" href="' . $cachedIMG . '" />
 				<meta name="description" content="' . $metaDescription . '" />
@@ -781,25 +782,26 @@ html;
 			// If you set longdesc=1 as a parameter in the url, then this will display a
 			// description that includes the title, URL, description WITH hashtags in a textarea
 			// for easy cutting and pasting on your social network accounts.
-			if ($this->longDesc)
+			if ($this->longDesc) {
 				$shortcodeOutput .= "
 					<div>
 						<img src=".$this->showImage ( $this->videoTitle.'-large', $this->videoID, $this->videoImage ).">
 						<p>
 							<br>Video Info
-							<br><textarea id='vid-info' onclick='copyText(this.id)' rows=5 cols=40 >" . $this->longDescInfo . "</textarea>
+							<br><textarea id='vid-info-" . $this->idCounter . "' onclick='copyText(this.id)' rows=5 cols=40 >" . $this->longDescInfo . "</textarea>
 
 							<br>Simple Description
-							<br><textarea id='vid-desc-simp' onclick='copyText(this.id)' rows=5 cols=40 >" . $this->simpleDescription . "</textarea>
+							<br><textarea id='vid-desc-simp-" . $this->idCounter . "' onclick='copyText(this.id)' rows=5 cols=40 >" . $this->simpleDescription . "</textarea>
 
 							<br>Video Description (No Links)
-							<br><textarea id='vid-des-nolinks' onclick='copyText(this.id)' rows=5 cols=40 >" . $this->videoDescription . "</textarea>
+							<br><textarea id='vid-des-nolinks-" . $this->idCounter . "' onclick='copyText(this.id)' rows=5 cols=40 >" . $this->videoDescription . "</textarea>
 
 							<br>Video Description (Links)
-							<br><textarea id='vid-des-links' onclick='copyText(this.id)' rows=5 cols=40 >" . $this->plain_url_to_link ( $this->videoDescription ) . "</textarea>
+							<br><textarea id='vid-des-links-" . $this->idCounter . "' onclick='copyText(this.id)' rows=5 cols=40 >" . $this->plain_url_to_link ( $this->videoDescription ) . "</textarea>
 						</p>
 					</div>";
-			else {
+				$this->idCounter++;
+				} else {
 				$shortcodeOutput .= '<p>' . str_replace ( "\n", "<br>", $this->plain_url_to_link ( $this->videoDescription ) ) . '</p>';
 
 				$currentURL = $this->getCurrentURL () . '?'.$this->titleParam.'=' . $this->seoTitle ( $this->videoTitle ) . '&list='.$this->playListID.'&v=' . $this->videoID .'&longdesc=on';
