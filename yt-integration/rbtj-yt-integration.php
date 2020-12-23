@@ -28,7 +28,7 @@ function enqueue_script() {
 
 
 include_once 'functions.php';
-$rbtj_YT = new RBJT_YT_Plugin;
+$rbtj_YT = new RBTJ_YT_Plugin;
 $rbtj_YT->getConfigs();
 $rbtj_YT->getVideoInfo('startup');
 
