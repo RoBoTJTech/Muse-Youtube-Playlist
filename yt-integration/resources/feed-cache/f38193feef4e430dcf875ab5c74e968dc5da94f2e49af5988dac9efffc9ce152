@@ -1,0 +1,67 @@
+{
+  "kind": "youtube#videoListResponse",
+  "etag": "K1gs8du0qOdIfIohRGaHg1GSZpE",
+  "items": [
+    {
+      "kind": "youtube#video",
+      "etag": "Uf7xYfPCpfzcTqUHX7jwO26AB1c",
+      "id": "euUF3FMD5kI",
+      "snippet": {
+        "publishedAt": "2020-11-19T19:36:36Z",
+        "channelId": "UCGp2MuE6zXX08rjC0qYgwxw",
+        "title": "Ep. #737 Brittain gets to explore the Colorado National Monument.",
+        "description": "Brittain has never been here! Once again we take a drive through the Colorado National Monument. It's a beautiful place to visit. If you like riding bicycles then I would strongly recommend this, it is very popular in this regard.\n\nFrom Wikipedia: https://en.wikipedia.org/wiki/Colorado_National_Monument\n\nColorado National Monument is a National Park Service unit near the city of Grand Junction, Colorado. Sheer-walled canyons cut deep into sandstone and granite–gneiss–schist rock formations. This is an area of desert land high on the Colorado Plateau, with pinyon and juniper forests on the plateau. The park hosts a wide range of wildlife, including red-tailed hawks, golden eagles, ravens, jays, desert bighorn sheep, and coyotes.[3] Activities include hiking, horseback riding, road bicycling, and scenic drives; a visitor center on the west side contains a natural history museum and gift shop. There are scenic views from trails, Rim Rock Drive, which winds along the plateau, and the campground.[4] Nearby are the Book Cliffs and the largest flat-topped mountain in the world, the Grand Mesa.\n\nThe monument's feature attraction is Monument Canyon, which runs the width of the park and includes rock formations such as Independence Monument, the Kissing Couple, and Coke Ovens. The monument includes 20,500 acres (32.0 sq mi; 83 km2), much of which has been recommended to Congress for designation as wilderness.\n\nSubscribe: http://www.thejohnnyoshow.com/subscribe.php\nCheck out our site: http://www.thejohnnyoshow.com\nFacebook: https://www.facebook.com/thejohnnyoshow\n\n#thejohnnyoshow  #johnorjias #coloradonationalmonument #nationalmonuments #grandjunction #canyons #roadtrip #travel #tour",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/euUF3FMD5kI/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/euUF3FMD5kI/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/euUF3FMD5kI/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/euUF3FMD5kI/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/euUF3FMD5kI/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "The Johnny O Show",
+        "tags": [
+          "thejohnnyoshow",
+          "John Orjias",
+          "Colorado national monument",
+          "grand junction",
+          "canyons",
+          "road trip",
+          "travel",
+          "tour"
+        ],
+        "categoryId": "22",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "en",
+        "localized": {
+          "title": "Ep. #737 Brittain gets to explore the Colorado National Monument.",
+          "description": "Brittain has never been here! Once again we take a drive through the Colorado National Monument. It's a beautiful place to visit. If you like riding bicycles then I would strongly recommend this, it is very popular in this regard.\n\nFrom Wikipedia: https://en.wikipedia.org/wiki/Colorado_National_Monument\n\nColorado National Monument is a National Park Service unit near the city of Grand Junction, Colorado. Sheer-walled canyons cut deep into sandstone and granite–gneiss–schist rock formations. This is an area of desert land high on the Colorado Plateau, with pinyon and juniper forests on the plateau. The park hosts a wide range of wildlife, including red-tailed hawks, golden eagles, ravens, jays, desert bighorn sheep, and coyotes.[3] Activities include hiking, horseback riding, road bicycling, and scenic drives; a visitor center on the west side contains a natural history museum and gift shop. There are scenic views from trails, Rim Rock Drive, which winds along the plateau, and the campground.[4] Nearby are the Book Cliffs and the largest flat-topped mountain in the world, the Grand Mesa.\n\nThe monument's feature attraction is Monument Canyon, which runs the width of the park and includes rock formations such as Independence Monument, the Kissing Couple, and Coke Ovens. The monument includes 20,500 acres (32.0 sq mi; 83 km2), much of which has been recommended to Congress for designation as wilderness.\n\nSubscribe: http://www.thejohnnyoshow.com/subscribe.php\nCheck out our site: http://www.thejohnnyoshow.com\nFacebook: https://www.facebook.com/thejohnnyoshow\n\n#thejohnnyoshow  #johnorjias #coloradonationalmonument #nationalmonuments #grandjunction #canyons #roadtrip #travel #tour"
+        },
+        "defaultAudioLanguage": "en"
+      }
+    }
+  ],
+  "pageInfo": {
+    "totalResults": 1,
+    "resultsPerPage": 1
+  }
+}

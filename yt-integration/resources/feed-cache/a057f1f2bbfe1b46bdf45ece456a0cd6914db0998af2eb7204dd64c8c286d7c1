@@ -1,0 +1,282 @@
+{
+  "kind": "youtube#playlistItemListResponse",
+  "etag": "664RpENLY1hJiR79zX5qxx8YujA",
+  "nextPageToken": "CAwQAA",
+  "prevPageToken": "CAYQAQ",
+  "items": [
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "zBP3EUAwtrMMcJkaqoRIh5PAl6o",
+      "id": "UExmaWtscEJtSmh4Ujk1VjdBa3JPUkVEWjJELU1UTlR1eS5ENUUzNDQ4RjRBOEVFQkRD",
+      "snippet": {
+        "publishedAt": "2020-12-08T21:24:40Z",
+        "channelId": "UCGp2MuE6zXX08rjC0qYgwxw",
+        "title": "Ep. #740  Circle of Life ~ Brittain Draws Simba",
+        "description": "It's been a while since Brittain has drawn anything. She purchased an iPad Pro and the Apple pen some time ago, but with life getting in the way this year she has not had much time to draw. This is one of her first attempts to get back into it. She is using an app called Procreate. It support layers and such as Photoshop and she can even import her work from Procreate right into Photoshop.\n\nWe discovered it also records her while she draws. \n\nSubscribe: http://www.thejohnnyoshow.com/subscribe.php\nCheck out our site: http://www.thejohnnyoshow.com\nFacebook: https://www.facebook.com/thejohnnyoshow\n\n#thejohnnyoshow  #johnorjias #lionking #circleoflife #simba #procreate #applepen #ipadpro #drawing #timelapse",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/e_-ESi_MzpE/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/e_-ESi_MzpE/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/e_-ESi_MzpE/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/e_-ESi_MzpE/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/e_-ESi_MzpE/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "The Johnny O Show",
+        "playlistId": "PLfiklpBmJhxR95V7AkrOREDZ2D-MTNTuy",
+        "position": 6,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "e_-ESi_MzpE"
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "j0nwuJGGGDIu-e8-sa3BPF6_WIc",
+      "id": "UExmaWtscEJtSmh4Ujk1VjdBa3JPUkVEWjJELU1UTlR1eS45N0FCMzAxRUE0NDgwODA3",
+      "snippet": {
+        "publishedAt": "2020-12-06T01:13:21Z",
+        "channelId": "UCGp2MuE6zXX08rjC0qYgwxw",
+        "title": "Ep. #739 First time camping for 3 days in below freezing temperatures",
+        "description": "We finally had the chance to test the 2019 Geo Pro 19FBS in freezing weather.\nFind out what I discovered! If you have the Geo Pro this will hopefully give you an idea of what to expect and what changes you may need to make for short term winter camping.\n\nBuy tank heaters here: https://thejohnnyoshow.com/product/facon-8-0x25-rv-tank-heater-pad/\n\nTemps. \nOctober 25 High 71 Low 19 Avg 45     No Issues\nOctober 26 High 23 Low 5   Avg 14     No Issues\nOctober 27 High 29 Low 1   Avg 15     No Issues\nOctober 28 High 42 Low 15 Avg 28.5  Partly Frozen Bathroom / Fully Frozen Kitchen Sink.  No  permanent damage\n\n\nSubscribe: http://www.thejohnnyoshow.com/subscribe.php\nCheck out our site: http://www.thejohnnyoshow.com\nFacebook: https://www.facebook.com/thejohnnyoshow\n\n#thejohnnyoshow  #johnorjias #geopro19fbs #geopro #rockwood #freezing #camping #rv #winter",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/OCqmbY2up1I/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/OCqmbY2up1I/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/OCqmbY2up1I/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/OCqmbY2up1I/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/OCqmbY2up1I/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "The Johnny O Show",
+        "playlistId": "PLfiklpBmJhxR95V7AkrOREDZ2D-MTNTuy",
+        "position": 7,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "OCqmbY2up1I"
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "9s3cDxTq5jZuZzjD4KWADpkuVEw",
+      "id": "UExmaWtscEJtSmh4Ujk1VjdBa3JPUkVEWjJELU1UTlR1eS43NzgxOEIxNDdCQzc5NkY0",
+      "snippet": {
+        "publishedAt": "2020-11-20T20:04:05Z",
+        "channelId": "UCGp2MuE6zXX08rjC0qYgwxw",
+        "title": "Ep. #738 Winterizing an Airstream B190",
+        "description": "Time to winterize the Airstream. It's a little different than how you do a GeoPro, but not really too bad. \n\nI'm not sure why you would pay someone to winterize an RV. Once you know what to do, it's really quite easy.\n\nSubscribe: http://www.thejohnnyoshow.com/subscribe.php\nCheck out our site: http://www.thejohnnyoshow.com\nFacebook: https://www.facebook.com/thejohnnyoshow\n\n#thejohnnyoshow  #johnorjias #Airstreamb190 #airstream #winterize #RV",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/LO9n5YJ3ICI/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/LO9n5YJ3ICI/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/LO9n5YJ3ICI/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/LO9n5YJ3ICI/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/LO9n5YJ3ICI/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "The Johnny O Show",
+        "playlistId": "PLfiklpBmJhxR95V7AkrOREDZ2D-MTNTuy",
+        "position": 8,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "LO9n5YJ3ICI"
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "qIVC15q8REg_Ki4c5vWnZ-y_isg",
+      "id": "UExmaWtscEJtSmh4Ujk1VjdBa3JPUkVEWjJELU1UTlR1eS5BOTNBOTE4QzFCOTIzMTNF",
+      "snippet": {
+        "publishedAt": "2020-11-19T19:34:17Z",
+        "channelId": "UCGp2MuE6zXX08rjC0qYgwxw",
+        "title": "Ep. #737 Brittain gets to explore the Colorado National Monument.",
+        "description": "Brittain has never been here! Once again we take a drive through the Colorado National Monument. It's a beautiful place to visit. If you like riding bicycles then I would strongly recommend this, it is very popular in this regard.\n\nFrom Wikipedia: https://en.wikipedia.org/wiki/Colorado_National_Monument\n\nColorado National Monument is a National Park Service unit near the city of Grand Junction, Colorado. Sheer-walled canyons cut deep into sandstone and granite–gneiss–schist rock formations. This is an area of desert land high on the Colorado Plateau, with pinyon and juniper forests on the plateau. The park hosts a wide range of wildlife, including red-tailed hawks, golden eagles, ravens, jays, desert bighorn sheep, and coyotes.[3] Activities include hiking, horseback riding, road bicycling, and scenic drives; a visitor center on the west side contains a natural history museum and gift shop. There are scenic views from trails, Rim Rock Drive, which winds along the plateau, and the campground.[4] Nearby are the Book Cliffs and the largest flat-topped mountain in the world, the Grand Mesa.\n\nThe monument's feature attraction is Monument Canyon, which runs the width of the park and includes rock formations such as Independence Monument, the Kissing Couple, and Coke Ovens. The monument includes 20,500 acres (32.0 sq mi; 83 km2), much of which has been recommended to Congress for designation as wilderness.\n\nSubscribe: http://www.thejohnnyoshow.com/subscribe.php\nCheck out our site: http://www.thejohnnyoshow.com\nFacebook: https://www.facebook.com/thejohnnyoshow\n\n#thejohnnyoshow  #johnorjias #coloradonationalmonument #nationalmonuments #grandjunction #canyons #roadtrip #travel #tour",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/euUF3FMD5kI/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/euUF3FMD5kI/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/euUF3FMD5kI/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/euUF3FMD5kI/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/euUF3FMD5kI/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "The Johnny O Show",
+        "playlistId": "PLfiklpBmJhxR95V7AkrOREDZ2D-MTNTuy",
+        "position": 9,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "euUF3FMD5kI"
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "w6lObi3aWNuUKAz3k5AU871JHsg",
+      "id": "UExmaWtscEJtSmh4Ujk1VjdBa3JPUkVEWjJELU1UTlR1eS4xMEQxNjdEQzZCRkVDNzVC",
+      "snippet": {
+        "publishedAt": "2020-11-13T16:19:45Z",
+        "channelId": "UCGp2MuE6zXX08rjC0qYgwxw",
+        "title": "Ep. #736 Replacing the Faucet in an Airstream B190",
+        "description": "JUST DON'T DO IT!  DO NOT TAKE YOUR RV TO A DEALERSHIP FOR REPAIRS!\n\nYou have seen in my videos that my RV dealer was completely incompetent when doing the repairs on my Geo Pro (Leach Camper Sales, Council Bluffs, Iowa)\n\nMy brother also has a camper and the dealer he purchased from is just as incompetent.\n\nBut 3 for 3... My mom was going to get her RV ready for this visit and we were going to go camp a couple nights at the Colorado National Monument before the cold sets in. She took it to the dealership (Humphrey RV in Montrose Colorado) 6 weeks earlier.  It took the full 6 weeks for them to even get to a point she could pick it up. Nothing she needed to get done even got started on and one of the things they did work on did not even get done right. OVER $700 and all she got was SLOW, garbage service.  \n\nThey installed a new faucet, did not even tighten the hoses, ruined the fitting that goes to the sprayer, and never even checked their work. There are ZERO excuses when you are paying $140/hr to justify this level of incompetency. They are all crooks!\n\nIf you can not fix it yourself, take it to a trustworthy RV repair shop. Do not take it to a dealership. Dealerships make their money by ripping people off with camper sales and fake warranty services. \n\nA repair shop does not have any other income stream but repairs. If they do crap work it will cost them business.  Do not use dealerships, unless you want to have a hack working on your RV.\n\nI have nothing nice to say about the RV industry.\n\nSubscribe: http://www.thejohnnyoshow.com/subscribe.php\nCheck out our site: http://www.thejohnnyoshow.com\nFacebook: https://www.facebook.com/thejohnnyoshow\n\n#thejohnnyoshow  #johnorjias #rv #airstream #b190 #repairs #rvdealers #crooks",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/Bi0962vtcdk/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/Bi0962vtcdk/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/Bi0962vtcdk/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/Bi0962vtcdk/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/Bi0962vtcdk/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "The Johnny O Show",
+        "playlistId": "PLfiklpBmJhxR95V7AkrOREDZ2D-MTNTuy",
+        "position": 10,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "Bi0962vtcdk"
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "Gdy-7cZL94BkHawyvN3KNYYYExQ",
+      "id": "UExmaWtscEJtSmh4Ujk1VjdBa3JPUkVEWjJELU1UTlR1eS40MDJCMzYzMEU2NzcwMjgz",
+      "snippet": {
+        "publishedAt": "2020-11-12T19:34:36Z",
+        "channelId": "UCGp2MuE6zXX08rjC0qYgwxw",
+        "title": "Ep. #735 Geo Pro 19FBS ~ Build a Light Weight Adjustable Bed",
+        "description": "Robin has hated this camper for a while, and you all know my feelings on it. But we can't afford to just sell it at a loss and buy something else.   So now that I'm finished fixing all the stuff that was just crap about it (for the most part) I made an upgrade for her. We have had a chance to use it a few times already and it has made living in the camper SOOOOO much more enjoyable. In fact, Robin's feelings about the camper have taken a 180 since adding this. Now to just get a bigger sink and the fold-up countertop like the Winnebago Micro Minnie 2106FBS and I think we will be ok with it for a while. FINALLY! (or until it completely snaps in half or something)\n\nI took the idea from an instruct-able I found here: https://www.instructables.com/The-Poor-Mans-Adjustable-Bed-Device/\n\nIt's not based on any of the measurements found in the instruct-able, because I made it to fit a queen mattress in a camper that is on a plywood platform already.\n\nEnjoy!\n\nSubscribe: http://www.thejohnnyoshow.com/subscribe.php\nCheck out our site: http://www.thejohnnyoshow.com\nFacebook: https://www.facebook.com/thejohnnyoshow\n\n#thejohnnyoshow  #johnorjias #mattress #adjustablebed #geopro #19fbs #geopro19fbs #camper #rv",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/JM3F5hCFJ_k/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/JM3F5hCFJ_k/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/JM3F5hCFJ_k/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/JM3F5hCFJ_k/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/JM3F5hCFJ_k/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "The Johnny O Show",
+        "playlistId": "PLfiklpBmJhxR95V7AkrOREDZ2D-MTNTuy",
+        "position": 11,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "JM3F5hCFJ_k"
+        }
+      }
+    }
+  ],
+  "pageInfo": {
+    "totalResults": 371,
+    "resultsPerPage": 6
+  }
+}

@@ -1,0 +1,276 @@
+{
+  "kind": "youtube#playlistItemListResponse",
+  "etag": "wdgUcK0ntwmphUPNsjYSiC9HXuU",
+  "nextPageToken": "CAYQAA",
+  "items": [
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "1S9npxnKge3SiU2ePyqbr7dkyG4",
+      "id": "UExmaWtscEJtSmh4Ujk1VjdBa3JPUkVEWjJELU1UTlR1eS5FQUQ3Rjg3QkUzNzA4NERC",
+      "snippet": {
+        "publishedAt": "2020-12-23T20:03:22Z",
+        "channelId": "UCGp2MuE6zXX08rjC0qYgwxw",
+        "title": "QT. #11 Use an Ammeter to Tell if All Tank Heaters Are Working",
+        "description": "In today's quick tip video, I install an ammeter for my tank heaters in the Geo Pro. I was concerned one of the heaters was not working during my last trip. This helped to verify that. At the end of the video, you will see it all working with the defective tank heater replaced.\n\nDigital Mini LED Ammeter\nhttps://thejohnnyoshow.com/product/digital-mini-led-ammeter/\n\nIf you would like to purchase this product, please click the link in the description. For more videos like this, please feel free to subscribe! I hope you found this video useful, have a great day.\n\nSubscribe: http://www.thejohnnyoshow.com/subscribe.php\nCheck out our site: http://www.thejohnnyoshow.com\nFacebook: https://www.facebook.com/thejohnnyoshow\n\nDigital Mini LED Ammeter-\nhttps://thejohnnyoshow.com/product/digital-mini-led-ammeter/\n\n#thejohnnyoshow  #johnorjias #geopro #ammeter #upgrades #camper #tankheater #lifestyle #quicktip",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/v6cH_KhjCZk/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/v6cH_KhjCZk/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/v6cH_KhjCZk/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/v6cH_KhjCZk/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          }
+        },
+        "channelTitle": "The Johnny O Show",
+        "playlistId": "PLfiklpBmJhxR95V7AkrOREDZ2D-MTNTuy",
+        "position": 0,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "v6cH_KhjCZk"
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "ZclPRGpNkc3wiGl3wYx4llpHdWI",
+      "id": "UExmaWtscEJtSmh4Ujk1VjdBa3JPUkVEWjJELU1UTlR1eS4xQUE1ODRFODA3RDAwOTVB",
+      "snippet": {
+        "publishedAt": "2020-12-16T22:08:37Z",
+        "channelId": "UCGp2MuE6zXX08rjC0qYgwxw",
+        "title": "Ep. #743 Heading Home From Colorado!",
+        "description": "Today we embark on a journey back home to Iowa! Enjoy the beautiful mountain views in todays video!\n\nSubscribe: http://www.thejohnnyoshow.com/subscribe.php\nCheck out our site: http://www.thejohnnyoshow.com\nFacebook: https://www.facebook.com/thejohnnyoshow\n\n#thejohnnyoshow  #johnorjias #roadtrip #headinghome #mountain #scenic #Colorado #Iowa #GeoPro #Travel",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/iF5Lh4WBcIQ/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/iF5Lh4WBcIQ/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/iF5Lh4WBcIQ/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/iF5Lh4WBcIQ/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/iF5Lh4WBcIQ/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "The Johnny O Show",
+        "playlistId": "PLfiklpBmJhxR95V7AkrOREDZ2D-MTNTuy",
+        "position": 1,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "iF5Lh4WBcIQ"
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "UFbutvQXzWE6om1EgysDTD8N_Jc",
+      "id": "UExmaWtscEJtSmh4Ujk1VjdBa3JPUkVEWjJELU1UTlR1eS5FMEI1QjUyOTRBRUVBRkMy",
+      "snippet": {
+        "publishedAt": "2020-12-13T21:24:56Z",
+        "channelId": "UCGp2MuE6zXX08rjC0qYgwxw",
+        "title": "Ls. #18 ARRL 10 Meter Contest Last Day ~ FlexRadio 6600M",
+        "description": "I have not worked 10 meters before. Normally I never hear anything, but tonight it's hopping.\n\nI'm going to give the ARRL 10 Meter Contest a try.\n\nSubscribe: http://www.thejohnnyoshow.com/subscribe.php\nCheck out our site: http://www.thejohnnyoshow.com\nFacebook: https://www.facebook.com/thejohnnyoshow\n\n#thejohnnyoshow  #johnorjias #flexradio #6600M #hamradio #shortwave #amateurradio #10metercontest #arrl",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/qoNltRJkwtU/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/qoNltRJkwtU/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/qoNltRJkwtU/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/qoNltRJkwtU/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/qoNltRJkwtU/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "The Johnny O Show",
+        "playlistId": "PLfiklpBmJhxR95V7AkrOREDZ2D-MTNTuy",
+        "position": 2,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "qoNltRJkwtU"
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "eIfw2-_pSGK_NGQOsKN2vD8iY3I",
+      "id": "UExmaWtscEJtSmh4Ujk1VjdBa3JPUkVEWjJELU1UTlR1eS4xQzVDQUY4NEIwNTUwNTVC",
+      "snippet": {
+        "publishedAt": "2020-12-13T00:13:43Z",
+        "channelId": "UCGp2MuE6zXX08rjC0qYgwxw",
+        "title": "Ep. #742 Before you upgrade your mattress in your Geo Pro 19FBS",
+        "description": "So I review 2 small issues you should be aware of regarding the Geo Pro 19FBS, first is the screws that hold in the microwave,  but the second is very important if you plan on putting a nicer (which means heavier) mattress in the camper.\n\nRecPro RV Furniture Tie-Down Straps: https://thejohnnyoshow.com/product/recpro-rv-furniture-tie-down-straps/\n\nSubscribe: http://www.thejohnnyoshow.com/subscribe.php\nCheck out our site: http://www.thejohnnyoshow.com\nFacebook: https://www.facebook.com/thejohnnyoshow\n\n#thejohnnyoshow  #johnorjias #geopro #geopro19fbs #rockwood #upgrades #rv #rvmattress",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/oJy15emP3qs/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/oJy15emP3qs/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/oJy15emP3qs/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/oJy15emP3qs/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/oJy15emP3qs/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "The Johnny O Show",
+        "playlistId": "PLfiklpBmJhxR95V7AkrOREDZ2D-MTNTuy",
+        "position": 3,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "oJy15emP3qs"
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "Mpm1Hb7u655ZdtVCXkmXbwFlFoo",
+      "id": "UExmaWtscEJtSmh4Ujk1VjdBa3JPUkVEWjJELU1UTlR1eS44RjBGOTlBNzlBM0M3M0Uy",
+      "snippet": {
+        "publishedAt": "2020-12-12T06:13:24Z",
+        "channelId": "UCGp2MuE6zXX08rjC0qYgwxw",
+        "title": "Ls. #17 ARRL 10 Meter Contest ~ FlexRadio 6600M",
+        "description": "I have not worked 10 meters before. Normally I never hear anything, but tonight it's hopping.\n\nI'm going to give the ARRL 10 Meter Contest a try.\n\nSubscribe: http://www.thejohnnyoshow.com/subscribe.php\nCheck out our site: http://www.thejohnnyoshow.com\nFacebook: https://www.facebook.com/thejohnnyoshow\n\n#thejohnnyoshow  #johnorjias #flexradio #6600M #hamradio #shortwave #amateurradio #10metercontest #arrl",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/TPuUK4xq7Xc/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/TPuUK4xq7Xc/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/TPuUK4xq7Xc/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/TPuUK4xq7Xc/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/TPuUK4xq7Xc/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "The Johnny O Show",
+        "playlistId": "PLfiklpBmJhxR95V7AkrOREDZ2D-MTNTuy",
+        "position": 4,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "TPuUK4xq7Xc"
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "JAvk_jj8ymVOCktb7Rp423ZQJ3I",
+      "id": "UExmaWtscEJtSmh4Ujk1VjdBa3JPUkVEWjJELU1UTlR1eS45MTQwRDc1RkZGQ0NDRUIw",
+      "snippet": {
+        "publishedAt": "2020-12-10T00:27:55Z",
+        "channelId": "UCGp2MuE6zXX08rjC0qYgwxw",
+        "title": "Ep. #741 Museums of Western Colorado’s Dinosaur Journey",
+        "description": "Today Britt and I visit the Museums of Western Colorado’s Dinosaur Journey, located in Fruita, Colorado, the Heart of Dinosaur Country.\n\nhttps://museumofwesternco.com/dinosaur-journey/\n\nFrom their site:\n\"Dinosaur Journey is a regional paleontological and geological museum that tells the story of the history of life in western Colorado and surrounding areas with real fossils, cast skeletons, and robotic reconstructions of dinosaurs. The hands-on, interactive museum includes over 15,000 fossil specimens in its collections, exhibits, and displays featuring discoveries from the region, a viewable paleontology laboratory where dinosaur bones are prepared for display, an earthquake simulator, a dinosaur library reading, a sandbox for making your own dinosaur tracks, and a “quarry site” where kids can uncover actual Jurassic dinosaur bones.\"\n\nSubscribe: http://www.thejohnnyoshow.com/subscribe.php\nCheck out our site: http://www.thejohnnyoshow.com\nFacebook: https://www.facebook.com/thejohnnyoshow\n\n#thejohnnyoshow  #johnorjias #dinosaurs #museums #westerncolorado #grandjunction #coloradonationalmonument",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/fH_LMms7rIE/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/fH_LMms7rIE/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/fH_LMms7rIE/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/fH_LMms7rIE/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/fH_LMms7rIE/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "The Johnny O Show",
+        "playlistId": "PLfiklpBmJhxR95V7AkrOREDZ2D-MTNTuy",
+        "position": 5,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "fH_LMms7rIE"
+        }
+      }
+    }
+  ],
+  "pageInfo": {
+    "totalResults": 371,
+    "resultsPerPage": 6
+  }
+}
